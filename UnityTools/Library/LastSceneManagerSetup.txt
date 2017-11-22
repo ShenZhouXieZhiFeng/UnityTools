@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CountTime/Demo/CountTimeDemo.unity
+- path: Assets/AStar/Scenes/MyScene.unity
   isLoaded: 1
   isActive: 1

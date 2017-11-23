@@ -148,8 +148,8 @@ public class MyAStar : MonoBehaviour
 			}
 			//完成遍历添加该点到关闭列表
 			closeList.Add (currentGrid);
-			//changeColor (objs [currentGrid.x, currentGrid.y]);
-			//yield return new WaitForSeconds (0.1f);
+			changeColor (objs [currentGrid.x, currentGrid.y]);
+			yield return new WaitForSeconds (0.1f);
 			//从开启列表中移除
 			openList.Remove (currentGrid);
 			//如果开启列表空，未能找到路径

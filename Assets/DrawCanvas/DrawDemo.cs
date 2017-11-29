@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DrawDemo : MaskableGraphic {
+public class DrawDemo : MonoBehaviour {
 
-    protected override void OnPopulateMesh(Mesh m)
+    private void Start()
     {
         
     }
